@@ -1,0 +1,49 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     192 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\ORKFramework.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\ORKFramework.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\ORKFrameworkCore.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\ORKFrameworkCore.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\PlayMaker.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\PlayMaker.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\MySql.Data.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\MySql.Data.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Data.Linq.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Data.Linq.dll into Unity Child Domain
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Drawing.dll into Unity Child Domain
+- Completed reload, in  0.295 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Data.dll (this message is harmless)
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Transactions.dll (this message is harmless)
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\daniel\Documents\GitHub\Vaults\test_Data\Managed\System.Configuration.dll (this message is harmless)
+ArgumentException: Encoding name 'Windows-1252' not supported
+Parameter name: name
+  at System.Text.Encoding.GetEncoding (System.String name) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

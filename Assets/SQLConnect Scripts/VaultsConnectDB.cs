@@ -4,23 +4,25 @@ using System.Collections.Generic;
 using MySql.Data.MySqlClient;
 using System.Drawing;
 
-public class ConnectSQLDB : MonoBehaviour {
+public class VaultsConnectDB : MonoBehaviour {
+
 	public MySqlConnection connection;
 	// Use this for initialization
+	   
 	void Start () {
 		string DB_ADDR = "vaultstcgtest.db.10691928.hostedresource.com";
 		string DB_NAME = "vaultstcgtest";
 		string DB_UNAME = "vaultstcgtest";
 		string DB_PWD = "vaultsT3st!";
-
+		
 		string connectionString;
 		connectionString = "SERVER=" + DB_ADDR + ";" + "DATABASE=" + 
 			DB_NAME + ";" + "UID=" + DB_UNAME + ";" + "PASSWORD=" + DB_PWD + ";";
 		
 		connection = new MySqlConnection(connectionString);
-
+		
 	}
-
+	
 	private bool OpenConnection()
 	{
 		try
@@ -48,7 +50,7 @@ public class ConnectSQLDB : MonoBehaviour {
 			return false;
 		}
 	}
-
+	
 	private bool CloseConnection()
 	{
 		try
@@ -62,8 +64,8 @@ public class ConnectSQLDB : MonoBehaviour {
 			return false;
 		}
 	}
-
-
+	
+	
 	//Select statement
 	public List< string >[] Select()
 	{
